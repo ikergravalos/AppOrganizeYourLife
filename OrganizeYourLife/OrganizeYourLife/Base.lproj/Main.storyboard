@@ -1,50 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="u8H-kn-qmS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="u8H-kn-qmS">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Listas-->
-        <scene sceneID="kre-W8-hYE">
-            <objects>
-                <tableViewController id="SQM-AV-NPw" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="37" sectionHeaderHeight="28" sectionFooterHeight="28" id="OYv-bo-dLS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="37" id="c9C-5s-RIe">
-                                <rect key="frame" x="0.0" y="92" width="600" height="37"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="c9C-5s-RIe" id="N2X-rD-BbX">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="36"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <animations/>
-                                </tableViewCellContentView>
-                                <animations/>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="SQM-AV-NPw" id="q5x-rh-P0G"/>
-                            <outlet property="delegate" destination="SQM-AV-NPw" id="FxF-Sf-3qf"/>
-                        </connections>
-                    </tableView>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Listas" id="p5B-z3-7Di">
-                        <barButtonItem key="backBarButtonItem" title="Atrás" id="iMZ-Ib-feD"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="0B7-1J-SaS"/>
-                    </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="presentation" id="H53-7v-7ij"/>
-                    </connections>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Uhu-ja-3uz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="91" y="404"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="y4E-WC-dlc">
             <objects>
@@ -52,34 +12,122 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DdP-iL-Ahj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <connections>
-                        <segue destination="SQM-AV-NPw" kind="relationship" relationship="rootViewController" id="B3m-Rg-nY3"/>
+                        <segue destination="ocf-vu-kIl" kind="relationship" relationship="rootViewController" id="Orj-Oa-uDk"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gDf-v4-TPZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1006" y="404"/>
+            <point key="canvasLocation" x="-1013" y="395"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Tareas-->
+        <scene sceneID="ake-9z-fxa">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OrganizeYourLife" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ocf-vu-kIl" customClass="ViewController" customModule="OrganizeYourLife" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="uiv-JX-dJQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="RvG-yF-di4"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="XYL-Or-ms2">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gth-kj-Ef4">
+                                <rect key="frame" x="0.0" y="64" width="594" height="536"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="CAD-Pu-qgS">
+                                    <size key="itemSize" width="137" height="163"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="yPa-sA-MF4" customClass="MiCelda" customModule="OrganizeYourLife" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="64" width="137" height="163"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="137" height="163"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="postit" translatesAutoresizingMaskIntoConstraints="NO" id="cub-iu-68l">
+                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="123"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tarea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sti-hw-z6C">
+                                                    <rect key="frame" x="19" y="134" width="92" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="ocf-vu-kIl" id="JPf-TW-6p0"/>
+                                    <outlet property="delegate" destination="ocf-vu-kIl" id="lBr-LV-yJv"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Tareas" id="1WK-ET-6Ye">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="gBF-ey-PhL">
+                            <connections>
+                                <segue destination="ogz-Wb-4cb" kind="presentation" id="KL7-15-6sE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ghL-Mt-B1G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-438" y="1161"/>
+            <point key="canvasLocation" x="-325" y="404"/>
+        </scene>
+        <!--Nueva Tarea View Controller-->
+        <scene sceneID="pBI-aE-AEs">
+            <objects>
+                <viewController id="ogz-Wb-4cb" customClass="NuevaTareaViewController" customModule="OrganizeYourLife" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="90y-Wq-a91"/>
+                        <viewControllerLayoutGuide type="bottom" id="cdV-bZ-7GY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Bw-1B-Oe2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TNd-J0-r66">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Nueva Tarea" id="zAg-Am-LDS">
+                                        <barButtonItem key="leftBarButtonItem" title="Volver" id="EzL-3t-H3d"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Añadir" id="yEh-CS-EuY"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I5s-jm-bEi" userLabel="NombreTarea">
+                                <rect key="frame" x="211" y="242" width="172" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Insertar Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqW-ed-5CK">
+                                <rect key="frame" x="233" y="201" width="134" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="NombreTarea" destination="I5s-jm-bEi" id="GNK-rE-7HF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ceu-1n-IEF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-622" y="1079"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="postit" width="422" height="450"/>
+    </resources>
 </document>

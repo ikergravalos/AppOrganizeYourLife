@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3A3C3C1C4826DF000F9D08 /* MiCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A3C3B1C4826DF000F9D08 /* MiCelda.swift */; };
+		3F3A3C421C483AD0000F9D08 /* NuevaTareaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A3C411C483AD0000F9D08 /* NuevaTareaViewController.swift */; };
 		3F3EA3271C233BF40041FB25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3EA3261C233BF40041FB25 /* AppDelegate.swift */; };
 		3F3EA3291C233BF40041FB25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3EA3281C233BF40041FB25 /* ViewController.swift */; };
 		3F3EA32C1C233BF40041FB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3EA32A1C233BF40041FB25 /* Main.storyboard */; };
 		3F3EA32F1C233BF40041FB25 /* OrganizeYourLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F3EA32D1C233BF40041FB25 /* OrganizeYourLife.xcdatamodeld */; };
 		3F3EA3311C233BF40041FB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3EA3301C233BF40041FB25 /* Assets.xcassets */; };
 		3F3EA3341C233BF40041FB25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3EA3321C233BF40041FB25 /* LaunchScreen.storyboard */; };
-		3F3EA33C1C233E4B0041FB25 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3EA33B1C233E4B0041FB25 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F3A3C3B1C4826DF000F9D08 /* MiCelda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiCelda.swift; sourceTree = "<group>"; };
+		3F3A3C411C483AD0000F9D08 /* NuevaTareaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuevaTareaViewController.swift; sourceTree = "<group>"; };
 		3F3EA3231C233BF40041FB25 /* OrganizeYourLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrganizeYourLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3EA3261C233BF40041FB25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F3EA3281C233BF40041FB25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +28,6 @@
 		3F3EA3301C233BF40041FB25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3EA3331C233BF40041FB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3EA3351C233BF40041FB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F3EA33B1C233E4B0041FB25 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,8 @@
 				3F3EA3321C233BF40041FB25 /* LaunchScreen.storyboard */,
 				3F3EA3351C233BF40041FB25 /* Info.plist */,
 				3F3EA32D1C233BF40041FB25 /* OrganizeYourLife.xcdatamodeld */,
-				3F3EA33B1C233E4B0041FB25 /* TableViewController.swift */,
+				3F3A3C3B1C4826DF000F9D08 /* MiCelda.swift */,
+				3F3A3C411C483AD0000F9D08 /* NuevaTareaViewController.swift */,
 			);
 			path = OrganizeYourLife;
 			sourceTree = "<group>";
@@ -141,10 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3A3C421C483AD0000F9D08 /* NuevaTareaViewController.swift in Sources */,
 				3F3EA3291C233BF40041FB25 /* ViewController.swift in Sources */,
 				3F3EA32F1C233BF40041FB25 /* OrganizeYourLife.xcdatamodeld in Sources */,
 				3F3EA3271C233BF40041FB25 /* AppDelegate.swift in Sources */,
-				3F3EA33C1C233E4B0041FB25 /* TableViewController.swift in Sources */,
+				3F3A3C3C1C4826DF000F9D08 /* MiCelda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				3F3EA33A1C233BF40041FB25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
