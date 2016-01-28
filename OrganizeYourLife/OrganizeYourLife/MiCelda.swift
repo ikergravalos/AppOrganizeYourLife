@@ -9,7 +9,7 @@
 import UIKit
 
 class MiCelda: UICollectionViewCell {
-    @IBOutlet weak var postit: UIImage!
+    @IBOutlet weak var postit: UIImageView!
     @IBOutlet weak var Tarea: UILabel!
     
 }

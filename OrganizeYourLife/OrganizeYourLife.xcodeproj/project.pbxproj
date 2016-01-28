@@ -15,6 +15,12 @@
 		3F3EA32F1C233BF40041FB25 /* OrganizeYourLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F3EA32D1C233BF40041FB25 /* OrganizeYourLife.xcdatamodeld */; };
 		3F3EA3311C233BF40041FB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3EA3301C233BF40041FB25 /* Assets.xcassets */; };
 		3F3EA3341C233BF40041FB25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3EA3321C233BF40041FB25 /* LaunchScreen.storyboard */; };
+		3F8033DC1C5AA45700FBDB0A /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8033DB1C5AA45700FBDB0A /* Datos.swift */; };
+		3FA796571C5163FD00CFB180 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA796561C5163FD00CFB180 /* Menu.swift */; };
+		D14419EF1C4BD9D900FFB22C /* TablaTareasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14419EE1C4BD9D900FFB22C /* TablaTareasTableViewController.swift */; };
+		D14419F11C4BDB0400FFB22C /* Lista.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14419F01C4BDB0400FFB22C /* Lista.swift */; };
+		D1BF2F4D1C4A9E8D0070A8E6 /* Tareas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BF2F4C1C4A9E8D0070A8E6 /* Tareas.swift */; };
+		D1F6FBD61C4BFD3D0054EEF2 /* NuevaTareaTablaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F6FBD51C4BFD3D0054EEF2 /* NuevaTareaTablaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		3F3EA3301C233BF40041FB25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3EA3331C233BF40041FB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3EA3351C233BF40041FB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8033DB1C5AA45700FBDB0A /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		3FA796561C5163FD00CFB180 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		D14419EE1C4BD9D900FFB22C /* TablaTareasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaTareasTableViewController.swift; sourceTree = "<group>"; };
+		D14419F01C4BDB0400FFB22C /* Lista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lista.swift; sourceTree = "<group>"; };
+		D1BF2F4C1C4A9E8D0070A8E6 /* Tareas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tareas.swift; sourceTree = "<group>"; };
+		D1F6FBD51C4BFD3D0054EEF2 /* NuevaTareaTablaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuevaTareaTablaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,12 @@
 				3F3EA32D1C233BF40041FB25 /* OrganizeYourLife.xcdatamodeld */,
 				3F3A3C3B1C4826DF000F9D08 /* MiCelda.swift */,
 				3F3A3C411C483AD0000F9D08 /* NuevaTareaViewController.swift */,
+				D1BF2F4C1C4A9E8D0070A8E6 /* Tareas.swift */,
+				D14419EE1C4BD9D900FFB22C /* TablaTareasTableViewController.swift */,
+				D14419F01C4BDB0400FFB22C /* Lista.swift */,
+				D1F6FBD51C4BFD3D0054EEF2 /* NuevaTareaTablaViewController.swift */,
+				3FA796561C5163FD00CFB180 /* Menu.swift */,
+				3F8033DB1C5AA45700FBDB0A /* Datos.swift */,
 			);
 			path = OrganizeYourLife;
 			sourceTree = "<group>";
@@ -145,8 +163,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3A3C421C483AD0000F9D08 /* NuevaTareaViewController.swift in Sources */,
+				D14419EF1C4BD9D900FFB22C /* TablaTareasTableViewController.swift in Sources */,
+				3F8033DC1C5AA45700FBDB0A /* Datos.swift in Sources */,
+				D1F6FBD61C4BFD3D0054EEF2 /* NuevaTareaTablaViewController.swift in Sources */,
 				3F3EA3291C233BF40041FB25 /* ViewController.swift in Sources */,
+				3FA796571C5163FD00CFB180 /* Menu.swift in Sources */,
+				D14419F11C4BDB0400FFB22C /* Lista.swift in Sources */,
 				3F3EA32F1C233BF40041FB25 /* OrganizeYourLife.xcdatamodeld in Sources */,
+				D1BF2F4D1C4A9E8D0070A8E6 /* Tareas.swift in Sources */,
 				3F3EA3271C233BF40041FB25 /* AppDelegate.swift in Sources */,
 				3F3A3C3C1C4826DF000F9D08 /* MiCelda.swift in Sources */,
 			);
